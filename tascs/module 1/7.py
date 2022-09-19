@@ -1,3 +1,12 @@
 a = int(input())
-print(f'Следующее число для числа {a}: {a + 1}')
-print(f'Предыдущее число для числа {a}: {a - 1}')
+b = int(input())
+c = int(input())
+
+a1 = int(input())
+b1 = int(input())
+c1 = int(input())
+
+aa = a * 3600 + b * 60 + c
+aa1 = a1 * 3600 + b1 * 60 + c1
+dd = abs(aa - aa1)
+print(dd)
