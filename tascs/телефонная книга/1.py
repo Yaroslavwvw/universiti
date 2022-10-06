@@ -41,6 +41,6 @@ while True:
     if  p == 1:
         get_contact(dict1, get_name(), get_nam())
     if  p == 2:
-        get_contact(dict1)
+        show_contact(dict1)
     if  p == 3:
         get_contact("Спасибо за использование!")
