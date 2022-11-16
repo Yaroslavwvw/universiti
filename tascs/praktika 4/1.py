@@ -19,11 +19,8 @@ def clear_sort(st):
 
 clear_sort(st)
 
-#!/usr/bin/env python
-# -* coding: utf-8 -*-
 
-#print(sys.version)
-import sys
+#import sys
 new_text = open("new_text.txt", mode='w')
 new_text.write(f'Всего уникальных слов: {len(new)}\n')
 new_text.write('\n')
