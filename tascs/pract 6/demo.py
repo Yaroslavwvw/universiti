@@ -3,7 +3,7 @@ import re
 import ssl
 import urllib.request
 
-pattern = r'(?:header__title-link\">)([^<]*)(?:[^.]*location\">\n*\s*)([^\n]*)(?:[^.]*)(\+[^<]*)(?:[^.]*index-inner">Часы.*\n\s*)(?:[^>]*.)([^<]*)'
+pattern = r'(?:header__title-link\">)([^<]*)(?:[^.]*location\">\n*\s*)([^\n]*)(?:[^.]*)>(\+[^<]*)(?:[^.]*index-inner">Часы.*\n\s*)(?:[^>]*.)([^<]*)'
 num_pattern = r'(\+7 [(]\d{3}[)] \d{3}-\d\d-\d\d)'
 adr = r'(?:Показать )(.+)(?: на карте)'
 
