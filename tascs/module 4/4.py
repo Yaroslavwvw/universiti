@@ -1,0 +1,1 @@
+print("да" if 99 < int(input()) < 1000 else "нет")

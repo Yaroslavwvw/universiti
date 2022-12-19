@@ -19,7 +19,7 @@ def clear_sort(st):
 
 clear_sort(st)
 
-
+#def save_file(st):
 #import sys
 new_text = open("new_text.txt", mode='w')
 new_text.write(f'Всего уникальных слов: {len(new)}\n')
