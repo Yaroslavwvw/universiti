@@ -1,6 +1,6 @@
 import random
 days = 336
-def birthday(count,iter):
+def birthday(iter, count):
     paradox = 0
     for i in range(count):
         birth = [random.randint(1,days) for x in range(iter)]
@@ -37,4 +37,4 @@ def montyhall(iter):
 
 
 montyhall(20)
-print(birthday(26, 5000))
+print(birthday(23, 10000))
