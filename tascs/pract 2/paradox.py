@@ -33,3 +33,6 @@ def monty_hall(nem):
             S += 1
     print(f'win percentage: {A / 100}% и  lose percentage: {B / 100}%')
     print(f'win percetage without changing mind : {S / 100}% lose percetage without changing mind: {N / 100}%')
+
+monty_hall(20)
+print(birthday(26, 5000))
