@@ -35,4 +35,4 @@ def monty_hall(nem):
     print(f'win percetage without changing mind : {S / 100}% lose percetage without changing mind: {N / 100}%')
 
 monty_hall(20)
-print(birthday(50000, 23))
+print(birthday(50000, 23)) #count == 50000 -- количество итераций
